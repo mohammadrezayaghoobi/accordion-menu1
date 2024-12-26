@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "vazir";
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.plus {
+  color: #2E7D32;
+}
+
+.minus {
+  color: #C62828;
+}
